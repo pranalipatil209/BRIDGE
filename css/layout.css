@@ -134,6 +134,7 @@ nav .pull {
 2. Work With Us
 3. Testimonials
 4. Newsletter
+5.fellows
 
 
 /* 1. Promotion
@@ -343,6 +344,43 @@ blockquote.rotator p{
 	border-bottom-left-radius: 0px;
 }
 
+/* 2. Work With Us
+==================================== */
+.fellows {
+	background: url(../images/art/1.jpg) 0 0 no-repeat fixed;
+	background-size: cover;
+	overflow: hidden;
+	width: 100%;
+	max-width: 1920px;
+	text-align: center;
+	align-items: center;
+	padding-bottom: 100px;
+	padding-top: 30px;
+
+}
+
+.fellows article {
+	padding: 170px 0;
+	margin: 0 auto;
+	float: none!important;
+	display: inline-block!important;
+}
+
+.fellows h4 {
+	font-size: 30px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color:#fff;
+	padding-top: 30px;
+}
+
+.fellows p {
+	padding: 5px 0 15px;
+	font-size: 17px;
+	color:#fff;
+	width: 60%;
+	margin: 0 auto;
+}
 
 /* Section Styles
 ==================================================
@@ -1169,6 +1207,27 @@ pb{
 	/*background: -webkit-gradient(linear, left top, left bottom,*/
 	/*color-stop(0%, white), color-stop(15%, white), color-stop(100%, #D7E9F5));*/
 	/*background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%);*/
+}
+
+.fellowsPast{
+	margin-top:50px;
+	margin-bottom: 90px;
+	margin-left: auto;
+	padding-bottom : 10px;
+}
+
+
+.fellas{
+	background-color: white;
+	height:150px;
+	width: 150px;
+	padding-top: 0px;
+	margin: 10px;
+
+}
+
+.fellowsPast figure{
+	margin-bottom: 20px;
 }
 
 .picture{
