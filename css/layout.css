@@ -13,7 +13,7 @@
 
 /* 1. Navigation bar */
 header {
-	width: 100%;	
+	width: 100%;
 	z-index: 9999;
 }
 
@@ -50,7 +50,7 @@ nav li:last-child a {
 
 nav a:hover, nav a:active {
 	background-color: #8ebd00;
-	
+
 
 
 }
@@ -76,7 +76,7 @@ nav .pull {
 }
 
 .socials li a:hover i {
-	color: #8ebd00; 
+	color: #8ebd00;
 }
 
 .socials li a {
@@ -236,7 +236,7 @@ blockquote.rotator p{
 	-moz-border-radius: 99em;
 	border-radius: 99em;
 	border: 4px solid #fff;
-	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
 }
 
 .quote-author {
@@ -303,12 +303,12 @@ blockquote.rotator p{
 	font-size: 14px;
 	font-weight: 700;
 	font-family: "Open Sans";
-	
+
 	transition: all 0.2s;
 	-moz-transition: all 0.2s; /* Firefox 4 */
 	-webkit-transition: all 0.2s; /* Safari and Chrome */
 	-o-transition: all 0.2s; /* Opera */
-	
+
 	-webkit-border-top-right-radius: 0px;
 	-webkit-border-bottom-right-radius: 0px;
 	-webkit-border-top-left-radius: 5px;
@@ -329,7 +329,7 @@ blockquote.rotator p{
 	font-weight: 700;
 	margin: 0 0 0 -4px;
 	font-size: 14px;
-	
+
 	-webkit-border-top-right-radius: 5px;
 	-webkit-border-bottom-right-radius: 5px;
 	-webkit-border-top-left-radius: 0px;
@@ -407,16 +407,16 @@ blockquote.rotator p{
 	display: inline-block;
 	text-align: center;
 	width: 100%;
-	
+
 	transition: all 0.3s;
-	-moz-transition: all 0.3s; 
-	-webkit-transition: all 0.3s; 
-	-o-transition: all 0.3s; 
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
 }
 
 .hex:hover {
-	transform: rotate(-30deg); 
-	-webkit-transform: rotate(-30deg); 
+	transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
 	-moz-transform: rotate(-30deg);
 	-o-transform: rotate(-30deg);
 	background: url('../images/hex-green.png') center no-repeat;
@@ -424,9 +424,9 @@ blockquote.rotator p{
 
 .hex span {
 	transition: all 0.3s;
-	-moz-transition: all 0.3s; 
-	-webkit-transition: all 0.3s; 
-	-o-transition: all 0.3s; 
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
 }
 
 .hex:hover span {
@@ -479,7 +479,7 @@ blockquote.rotator p{
 }
 
 #about article {
-	padding:  45px 0 55px 0; 
+	padding:  45px 0 55px 0;
 	overflow: hidden;
 }
 
@@ -592,9 +592,9 @@ blockquote.rotator p{
 	text-align: center;
 	margin: 8px 6px;
 	transition: all 0.2s;
-	-moz-transition: all 0.2s; 
-	-webkit-transition: all 0.2s; 
-	-o-transition: all 0.2s; 
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
 }
 
 .picture ul li a:hover{
@@ -605,7 +605,7 @@ blockquote.rotator p{
 	color: #8ebd00;
 }
 
-/* 3. Portfolio 
+/* 3. Portfolio
 ===================================== */
 .center-filters {
 	text-align: center;
@@ -638,7 +638,7 @@ blockquote.rotator p{
 	text-transform: uppercase;
 }
 
-#filters li a:hover{	
+#filters li a:hover{
 	color: #1d1d1d;
 }
 
@@ -840,11 +840,11 @@ strong.green {color: #8ebd00;}
 	font-weight: 600;
 	font-size: 14px;
 	font-family: "Open Sans";
-	
+
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	
+
 	-webkit-transition: all 0.2s linear 0s;
 	-moz-transition: all 0.2s linear 0s;
 	-ms-transition: all 0.2s linear 0s;
@@ -852,7 +852,7 @@ strong.green {color: #8ebd00;}
 	transition: all 0.2s linear 0s;
 }
 
-.field textarea:focus, 
+.field textarea:focus,
 .field input:focus{
 	border: 2px solid #8ebd00;
 }
@@ -917,7 +917,7 @@ strong.green {color: #8ebd00;}
 	border-radius: 5px;
 	border: 2px solid #d7d7d7;
 	border-bottom: none;
-	
+
 	height: 50px;
 	line-height: 50px;
 	color: #1d1d1d;
@@ -1061,17 +1061,17 @@ strong.green {color: #8ebd00;}
 
 .send:hover {
 	background: #8ebd00;
-	-webkit-transition: all 0.1s ease-in-out;	
-	-moz-transition: all 0.1s ease-in-out;	
-	-o-transition: all 0.1s ease-in-out;	
-	-ms-transition: all 0.1s ease-in-out;	
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
 	transition: all 0.1s ease-in-out;
 }
 
 .loading {
-	background:url(../images/ajax-loader.gif) no-repeat; 
-	height:28px; 
-	width:28px; 
+	background:url(../images/ajax-loader.gif) no-repeat;
+	height:28px;
+	width:28px;
 	display: none;
 	float: left;
 	margin: 17px 0 0 12px;
@@ -1088,7 +1088,7 @@ strong.green {color: #8ebd00;}
 	margin-bottom: 20px;
 	text-shadow: 1px 1px #E3FFB0;
 	font-weight: 600;
-	
+
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -1111,8 +1111,8 @@ footer {
 	padding: 50px 0;
 }
 
-#twitter-feed li { 
-	margin: 20px 0; 
+#twitter-feed li {
+	margin: 20px 0;
 }
 
 #twitter-feed li i {
@@ -1139,7 +1139,7 @@ footer {
 
 #twitter-feed li span a {
 	font-weight: 700;
-	color: #424242;	
+	color: #424242;
 }
 
 .contact-details {
@@ -1257,9 +1257,9 @@ pb{
 ================================================== */
 
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
 and (orientation : landscape) {
 	.buy { background: url(../images/b2.jpg) 0 50% no-repeat!important; }
 	.work { background: url(../images/faces.jpg) 0 50% no-repeat!important; }
@@ -1275,7 +1275,7 @@ and (orientation : landscape) {
 	.testimonials { background: url(../images/sailing.jpg) 0 50% no-repeat!important; }
 	.newsletter { background: url(../images/dog.jpg) 0 50% no-repeat!important; }
 	.buy, .work, .testimonials, .newsletter { -webkit-background-size: 959px auto!important;}
-	
+
 	.white-overlay,
 	.testimonials-overlay{
 		padding: 60px 0 30px;
@@ -1284,12 +1284,12 @@ and (orientation : landscape) {
 
 	.white-overlay h4 { font-size: 31px; }
 	.white-overlay p { font-size: 14px; }
-	
+
 	.promo img { width: 90%; }
 	.promo h3{margin-top: 40px; }
 	.promo p {margin-right: 20px;}
-	
-	#about h5 {margin-bottom: 30px;}	
+
+	#about h5 {margin-bottom: 30px;}
 	#about article {padding: 35px 0;}
 	.picture { padding: 0 6px;}
 	.picture span {	margin-left: 2px;font-weight: 600;font-size: 13px;}
@@ -1300,13 +1300,13 @@ and (orientation : landscape) {
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (max-width: 767px) {
-	
+
 	.buy { background: url(../images/b2.jpg) 0 50% no-repeat!important; }
 	.work { background: url(../images/faces.jpg) 0 50% no-repeat!important; }
 	.testimonials { background: url(../images/sailing.jpg) 0 50% no-repeat!important; }
 	.newsletter { background: url(../images/dog.jpg) 50% 50% no-repeat!important; }
 	.buy, .work, .testimonials, .newsletter { -webkit-background-size: 767px auto!important;}
-	
+
 	.white-overlay,
 	.testimonials-overlay{
 		margin: 100px auto;
@@ -1316,29 +1316,29 @@ and (orientation : landscape) {
 
 	.white-overlay h4 { font-size: 24px; }
 	.white-overlay p { font-size: 14px; }
-	
+
 	.button {font-size: 13px; padding: 6px 25px;}
-	
+
 	.buy { background: url(../images/b2.jpg) no-repeat; }
 
 	nav {
 		border-bottom: 0;
 	}
-	
+
 	nav ul {
 		display: none;
 		height: auto;
 	}
-	
+
 	nav ul li {
 		width: 100%;
 	}
-	
+
 	nav li a {
 	  	text-align: left;
 	  	width: 100%;
   	}
-	
+
 	nav .pull {
 		display: block;
 		background: #161616;
@@ -1346,59 +1346,59 @@ and (orientation : landscape) {
 		text-align: right;
 		color: #fff;
 	}
-	
+
 	nav .pull i{
 		font-size: 21px;
 		padding: 11px;
 	}
-	
+
 	nav .pull:hover {
 		background: #1d1d1d;
 		color: #8ebd00;
 	}
-	
+
 	.title h2 {
 		padding: 0;
 		margin: 40px 0 5px;
 		border: 0;
 		text-align: center;
 	}
-	
+
 	.title p {
 		line-height: 23px;
 		font-size: 18px;
 		text-align: center;
 	}
-	
+
 	.service {	margin: 25px 0;}
 	#about article {padding: 20px 0;}
-	
+
 	.title p.three-lines,
 	.title p.two-lines,
 	.title p.one-line {margin: 0 0 40px;}
-	
+
 	.promo h3,
 	.promo p{
 		text-align: center;
 		margin-right: 0;
 	}
-	
+
 	.promo a {
 		margin: 0 auto;
 		width: 120px;
 		display: block;
 	}
-	
+
 	.skill-title {width: 100%; margin-top: 0px; margin-bottom: 3px;}
 	.skill-bar {width: 100%;}
-	
+
 	.picture {padding: 0 6px;margin-bottom: 20px;}
-	
+
 	.newsletter h4 {font-size: 28px;}
 	.newsletter-form input[type=text] { width: 160px; padding: 9px 0px 9px 35px;}
 	.contact-details p {width: 60%; margin: 0 auto 40px;}
 	.work p { font-size: 14px; }
-	
+
 	.plan { margin-bottom: 0; }
 }
 
@@ -1411,7 +1411,7 @@ and (orientation : landscape) {
 		padding: 40px 0 20px;
 		width: 300px;
 	}
-	
+
 }
 
 /* #Retina Graphics
@@ -1420,15 +1420,15 @@ and (orientation : landscape) {
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
 
 	.hex {
-		background: url('../images/hex@2x.png') center no-repeat;	
+		background: url('../images/hex@2x.png') center no-repeat;
 		background-size: 113px 125px;
 	}
 
 	.hex:hover {
-		background: url('../images/hex-green@2x.png') center no-repeat;	
+		background: url('../images/hex-green@2x.png') center no-repeat;
 		background-size: 113px 125px;
 	}
-	
+
 	.picture ul li a{
 		background: url('../images/smallhex@2x.png') center 66% no-repeat;
 		background-size: 25px auto;
@@ -1438,7 +1438,7 @@ and (orientation : landscape) {
 		background: url('../images/smallhex@2x.png') center bottom no-repeat;
 		background-size: 25px auto;
 	}
-	
+
 	.socials li a {
 		background: url('../images/smallhex_w@2x.png') no-repeat;
 		background-size: 31px auto;
@@ -1448,5 +1448,5 @@ and (orientation : landscape) {
 		background: url('../images/smallhex_w@2x.png') bottom no-repeat;
 		background-size: 31px auto;
 	}
-		
+
 }
