@@ -135,6 +135,7 @@ nav .pull {
 3. Testimonials
 4. Newsletter
 5.fellows
+6.introduction
 
 
 /* 1. Promotion
@@ -195,6 +196,7 @@ nav .pull {
 	width: 60%;
 	margin: 0 auto;
 }
+
 
 /* 3. Testimonials
 ==================================== */
@@ -343,6 +345,33 @@ blockquote.rotator p{
 	border-top-left-radius: 0px;
 	border-bottom-left-radius: 0px;
 }
+
+/* 6. introduction
+==================================== */
+.intro {
+	background: url(../images/blurry_blue.jpg) 0 0 no-repeat fixed;
+	overflow: hidden;
+	width: 100%;
+	max-width: 1920px;
+	text-align: center;
+	background-size: cover;
+
+}
+.white{
+	background: rgba(255,255,255,0.5);
+}
+
+.startI{
+	font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+	float:left;
+
+}
+.redM{
+
+	font-weight: bold;
+}
+
+
 
 /* 2. Work With Us
 ==================================== */
@@ -1224,6 +1253,9 @@ pb{
 		padding: 20px;
 		margin: 10px;
 	}
+	.mobile-none{
+		display: none;
+	}
 }
 
 
@@ -1284,6 +1316,7 @@ and (orientation : landscape) {
 	.testimonials { background: url(../images/sailing.jpg) 0 50% no-repeat!important; }
 	.newsletter { background: url(../images/dog.jpg) 0 50% no-repeat!important;}
 	.buy, .work, .testimonials , .newsletter { -webkit-background-size: 1024px auto!important;}
+	.intro{ background: url(../images/dog.jpg) 0 50% no-repeat!important; }
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
@@ -1293,6 +1326,7 @@ and (orientation : landscape) {
 	.testimonials { background: url(../images/sailing.jpg) 0 50% no-repeat!important; }
 	.newsletter { background: url(../images/dog.jpg) 0 50% no-repeat!important; }
 	.buy, .work, .testimonials, .newsletter { -webkit-background-size: 959px auto!important;}
+	.intro{ background: url(../images/dog.jpg) 0 50% no-repeat!important; }
 
 	.white-overlay,
 	.testimonials-overlay{
@@ -1324,6 +1358,7 @@ and (orientation : landscape) {
 	.testimonials { background: url(../images/sailing.jpg) 0 50% no-repeat!important; }
 	.newsletter { background: url(../images/dog.jpg) 50% 50% no-repeat!important; }
 	.buy, .work, .testimonials, .newsletter { -webkit-background-size: 767px auto!important;}
+	.intro{ background: url(../images/dog.jpg) 0 50% no-repeat!important; }
 
 	.white-overlay,
 	.testimonials-overlay{
@@ -1428,6 +1463,14 @@ and (orientation : landscape) {
 		margin: 100px auto;
 		padding: 40px 0 20px;
 		width: 300px;
+	}
+	.intro{
+		margin: 100px auto;
+		padding: 40px 0 20px;
+		width: 300px;
+	}
+	.mobile-none{
+		display: none;
 	}
 
 }
