@@ -1,0 +1,23 @@
+<div class="grey">
+    <div class="container">
+
+        <div class="one-third column" ng-repeat="post in team track by $index">
+            <figure class="picture">
+                <img ng-src="{{post.image}}" />
+                <figcaption>
+                    <span>{{post.name}}</span>
+                    <ul>
+
+                        <li>
+                            <a href="{{post.email}}">
+                                <i class="icon-linkedin"></i></a>
+                        </li>
+                    </ul>
+                    <span id="occup">{{post.ocupation}}</span>
+                </figcaption>
+            </figure>
+        </div>
+
+    </div>
+
+</div>

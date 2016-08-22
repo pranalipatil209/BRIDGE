@@ -1,0 +1,18 @@
+{
+  "name": "BridgeLabz",
+  "description": "",
+  "main": "",
+  "authors": [
+    "nextitsoftsys <yadav.jayprakash20@yahoo.in>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/pranalipatil209/BRIDGE",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

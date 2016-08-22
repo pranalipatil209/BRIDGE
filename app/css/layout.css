@@ -128,7 +128,7 @@ nav .pull {
 	background: #fafafa;
 }
 
-/* Parallax Sections 
+/* Parallax Sections
 ==================================================
 1. Promotion
 2. Work With Us
@@ -1216,7 +1216,10 @@ pb{
 	margin-bottom: 90px;
 	margin-left: auto;
 }
-
+.lack, .lack2{
+	border:2px solid red;
+	width: 500px;
+}
 .companies {
 	background-color: white;
 	height: 100px;
@@ -1244,6 +1247,13 @@ pb{
 		padding: 20px;
 		margin: 10px;
 	}
+	.lack{
+		width: 400px;
+	}
+	.lack2{
+		width: 400px;
+		/*padding: 20px;*/
+	}
 }
 @media only screen and (max-width: 767px) {
 	.companies{
@@ -1255,6 +1265,13 @@ pb{
 	}
 	.mobile-none{
 		display: none;
+	}
+	.lack{
+		width: 300px;
+	}
+	.lack2{
+		width: 300px;
+		padding: 12px;
 	}
 }
 

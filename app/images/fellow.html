@@ -1,0 +1,22 @@
+<div class="fellowsPast">
+    <div class="container">
+
+        <div class="one-fifth column" ng-repeat="post in  fellow track by $index">
+            <figure class="picture">
+                <div class="fellas">
+                    <img ng-src="{{post.image}}" />
+                </div>
+                <figcaption>
+                    <p style="font-size:10px">{{post.name}}</p>
+                    <ul>
+                        <li>
+                            <a href="{{post.email}}">
+                                <i class="icon-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </figcaption>
+            </figure>
+        </div>
+
+    </div>
+</div>
