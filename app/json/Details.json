@@ -1,0 +1,219 @@
+
+  {
+    "team": [
+      {
+        "image": "images/face-two.jpg",
+        "name": "Narayan Mahadevan",
+        "ocupation": "CTO Mauj Mobile Advisor & Technologist",
+        "email": "https://in.linkedin.com/in/narayanprofile"
+      },
+      {
+        "image": "images/ashish.jpg",
+        "name": "Ashes Vats",
+        "ocupation": "Engineering Head and Founding Member",
+        "email": "        https://in.linkedin.com/in/ashes-vats-50734046"
+      },
+      {
+        "image": "images/vidya.jpg",
+        "name": " Shreevidya Ramamurthy ",
+        "ocupation": "Relationship Head and Founding Member",
+        "email": "https://in.linkedin.com/in/narayanprofile"
+      }
+    ],
+    "fellow": [
+      {
+        "image": "images/Naresh-Narsing.jpg",
+        "email": "https://www.linkedin.com/in/naresh-narsing-821239110",
+        "name": "Naresh Narsing"
+      },
+      {
+        "image": "images/Priyanka-Kanase.jpg",
+        "email": "https://in.linkedin.com/in/priyanka-kanse-6315ab104",
+        "name": "Priyanka Kanase"
+      },
+      {
+        "image": "images/Eshvar-Mali.jpg",
+        "email": "https://in.linkedin.com/in/komal-kamble-a231a1112",
+        "name": "Komal Kamble"
+      },
+      {
+        "image": "images/Eshvar-Mali.jpg",
+        "email": "https://in.linkedin.com/in/sharvari-shejwal-133452107",
+        "name": "Sharvari Shejwal"
+      },
+      {
+        "image": "images/Mrunal-Desale.jpg",
+        "email": "https://in.linkedin.com/in/mrunal-desale-70576aa4",
+        "name": "Mrunal Desale"
+      },
+      {
+        "image": "images/Saurabh-More.jpg",
+        "email": "https://in.linkedin.com/in/sourabh-more-303733106",
+        "name": "Saurabh More"
+      },
+      {
+        "image": "images/Azhar-Khan.jpg",
+        "email": "https://in.linkedin.com/in/azhar-khan-a62a79111",
+        "name": "Azhar Khan"
+      },
+      {
+        "image": "images/Anurag-Singh.jpg",
+        "email": "https://in.linkedin.com/in/anurag-singh-2a5a95b4",
+        "name": "Anurag Singh"
+      },
+      {
+        "image": "images/Vivek-Mishra.jpg",
+        "email": "https://in.linkedin.com/in/vivek-mishra-89806561",
+        "name": "Vivek Mishra"
+      },
+      {
+        "image": "images/Eshvar-Mali.jpg",
+        "email": "https://in.linkedin.com/in/ansari-sahel-7222a8a1",
+        "name": "Sahel Ansari"
+      },
+      {
+        "image": "images/Eshvar-Mali.jpg",
+        "email": "https://in.linkedin.com/in/eshvar-mali-7b705386",
+        "name": "Eshvar Mali"
+      }
+    ],
+    "fellow1": [
+      {
+        "image": "images/Chandan-Krishnan.jpg",
+        "email": "https://in.linkedin.com/in/chandan-krishnan-76025077",
+        "name": "Chandan Krishnan"
+      },
+      {
+        "image": "images/Nadimuddin.jpg",
+        "email": "https://in.linkedin.com/in/nadimuddin-shaikh-321305113",
+        "name": "Nadimuddin Shaikh"
+      },
+      {
+        "image": "images/Muhammad-Chhota.jpg",
+        "email": "https://in.linkedin.com/in/muhammad-chhota-b4ab09b1",
+        "name": "Muhammad Chhota"
+      },
+      {
+        "image": "images/priyanka.jpg",
+        "email": "https://in.linkedin.com/in/priyanka-bodadkar-428b2b11b",
+        "name": "Priyanka Bodadkar"
+      },
+      {
+        "image": "images/ippe.jpg",
+        "email": "https://in.linkedin.com/in/ippe-venkataswamy-896a49107",
+        "name": "Ippe Venkataswamy"
+      },
+      {
+        "image": "images/Mukesh-Sharma.jpg",
+        "email": "https://in.linkedin.com/in/mukesh-sharma-b9298bb4",
+        "name": "Mukesh Sharma"
+      },
+      {
+        "image": "images/balram.jpg",
+        "email": "https://in.linkedin.com/in/balram-cheryala-7080b659",
+        "name": "Balram Cheryala"
+      },
+      {
+        "image": "images/Prathamesh-Naik.jpg",
+        "email": "https://in.linkedin.com/in/prathamesh-naik-986996126",
+        "name": "Prathamesh Naik"
+      },
+      {
+        "image": "images/Pratik-Ranjane.jpg",
+        "email": "https://in.linkedin.com/in/pratik-ranjane-79904611a",
+        "name": "Pratik Ranjane"
+      },
+      {
+        "image": "images/Sumeet-Jagtap.jpg",
+        "email": "https://in.linkedin.com/in/sumeet-jagtap-22448162",
+        "name": "Sumeet Jagtap"
+      },
+      {
+        "image": "images/Jayprakash.jpg",
+        "email": "https://in.linkedin.com/in/jayprakash-yadav-45657095",
+        "name": "Jayprakash Yadav"
+      },
+      {
+        "image": "images/Vamsee-Vemula.jpg",
+        "email": "https://in.linkedin.com/in/vamsee-mohan-krishna-vemula-354b0611b",
+        "name": "Vamsee Vemula"
+      },
+      {
+        "image": "images/Raju-shinde.jpg",
+        "email": "https://in.linkedin.com/in/vamsee-mohan-krishna-vemula-354b0611b",
+        "name": "Raju Shinde"
+      },
+      {
+        "image": "images/Rahul.jpg",
+        "email": "https://in.linkedin.com/in/rahul-tiwari-981979109",
+        "name": "Rahul Tiwari"
+      },
+      {
+        "image": "images/Nakka-Lakshman.jpg",
+        "email": "https://in.linkedin.com/in/nakka-lakshman-318994114",
+        "name": "Nakka Lakshman"
+      },
+      {
+        "image": "images/habeeb.jpg",
+        "email": "https://in.linkedin.com/in/akkar-habeeb-9b2768126",
+        "name": "Akkar Habeeb"
+      },
+      {
+        "image": "images/Prachi.jpg",
+        "email": "https://in.linkedin.com/in/prachi-sugdare-046601115",
+        "name": "Prachi Sugdare"
+      },
+      {
+        "image": "images/pranali.jpg",
+        "email": "https://in.linkedin.com/in/pranali-patil-7a391345",
+        "name": "Pranali Patil"
+      },
+      {
+        "image": "images/Lokesh.jpg",
+        "email": "https://in.linkedin.com/in/lokesh-kumar-pedda-1b3768126",
+        "name": "Lokesh Pedda"
+      }
+    ],
+    "parterners": [
+      {
+        "image": "images/partners/craftsvilla_logo1.png",
+        "email": "http://www.craftsvilla.com/"
+      },
+      {
+        "image": "images/partners/greytiphr-logo.png",
+        "email": "https://www.greythr.com/"
+      },
+      {
+        "image": "images/partners/TimesofMoney_Logo.png",
+        "email": "https://www.timesofmoney.com/TOM/index.html"
+      },
+      {
+        "image": "images/partners/zopper.png",
+        "email": "https://www.zopper.com/"
+      },
+      {
+        "image": "images/partners/meru_logo.jpg",
+        "email": "https://www.merucabs.com/"
+      },
+      {
+        "image": "images/partners/Clover-Infotech.png",
+        "email": "http://www.cloverinfotech.com/"
+      },
+      {
+        "image": "images/partners/Hurix%20Logo%20_High%20res.png",
+        "email": "https://hurix.com/"
+      },
+      {
+        "image": "images/partners/heena.png",
+        "email": "https://projectheena.com/"
+      },
+      {
+        "image": "images/partners/xpresson.png",
+        "email": "http://www.xpressonnet.com/"
+      },
+      {
+        "image": "images/partners/99adventure.png",
+        "email": "#"
+      }
+    ]
+  }

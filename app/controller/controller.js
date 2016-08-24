@@ -5,24 +5,52 @@
 
 angular.module('bridgeApp')
 
-/** Injecting all services to the Controller
- * */
-.controller('bridgeCtrl', function ($scope, fellowService,fellowService1, teamService, partenerService) {
+    /** Injecting all JSON to the Controller
+     * 
+     * */
+    .controller('bridgeCtrl', ['$scope', '$http', 'myCache', function ($scope, $http, myCache) {
+
+        var cache = myCache.get('myData');
+       
+        if (cache) {
+
+            //Fellow Service
+            $scope.fellow = data.fellow;
+
+            //Fellow Service1
+            $scope.fellow1 = data.fellow1;
+
+            //Team Service
+            $scope.team = data.team;
+
+            //Parteners Service
+            $scope.Parteners = data.parterners;
 
 
-    //Fellow Service
-    $scope.fellow = fellowService.infoFellow();
+        }
 
-    //Fellow Service1
-    $scope.fellow1 = fellowService1.infoFellow1();
+else{
+        $http.get('json/Details.json').success(function (data) {
+
+
+            //Fellow Service
+            $scope.fellow = data.fellow;
+
+            //Fellow Service1
+            $scope.fellow1 = data.fellow1;
+
+            //Team Service
+            $scope.team = data.team;
+
+            //Parteners Service
+            $scope.Parteners = data.parterners;
+
+            myCache.put('myData', data);
+            
     
-    //Team Service
-    $scope.team = teamService.infoTeam();
-   
-    //Parteners Service
-    $scope.Parteners = partenerService.infoPartener();
-    
-});
+        });
+}
+    }]);
 
 
 
