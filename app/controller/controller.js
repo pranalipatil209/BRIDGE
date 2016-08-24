@@ -15,16 +15,16 @@ angular.module('bridgeApp')
         if (cache) {
 
             //Fellow Service
-            $scope.fellow = data.fellow;
+            $scope.fellow = cache.fellow;
 
             //Fellow Service1
-            $scope.fellow1 = data.fellow1;
+            $scope.fellow1 = cache.fellow1;
 
             //Team Service
-            $scope.team = data.team;
+            $scope.team = cache.team;
 
             //Parteners Service
-            $scope.Parteners = data.parterners;
+            $scope.Parteners = cache.parterners;
 
 
         }
