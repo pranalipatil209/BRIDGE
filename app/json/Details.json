@@ -140,11 +140,7 @@
         "email": "https://in.linkedin.com/in/rahul-tiwari-981979109",
         "name": "Rahul Tiwari"
       },
-     {
-        "image": "images/Jayprakash.jpg",
-        "email": "https://in.linkedin.com/in/jayprakash-yadav-45657095",
-        "name": "Jayprakash Yadav"
-      },
+     
       {
         "image": "images/Prachi.jpg",
         "email": "https://in.linkedin.com/in/prachi-sugdare-046601115",
@@ -165,7 +161,11 @@
         "email": "https://in.linkedin.com/in/vamsee-mohan-krishna-vemula-354b0611b",
         "name": "Raju Shinde"
       },
-     
+     {
+        "image": "images/Jayprakash.jpg",
+        "email": "https://in.linkedin.com/in/jayprakash-yadav-45657095",
+        "name": "Jayprakash Yadav"
+      },
       {
         "image": "images/Nadimuddin.jpg",
         "email": "https://in.linkedin.com/in/nadimuddin-shaikh-321305113",
