@@ -128,11 +128,7 @@
         "email": "https://in.linkedin.com/in/nakka-lakshman-318994114",
         "name": "Nakka Lakshman"
       },
-      {
-        "image": "images/Jayprakash.jpg",
-        "email": "https://in.linkedin.com/in/jayprakash-yadav-45657095",
-        "name": "Jayprakash Yadav"
-      },
+      
        {
         "image": "images/habeeb.jpg",
         "email": "https://in.linkedin.com/in/akkar-habeeb-9b2768126",
@@ -144,7 +140,11 @@
         "email": "https://in.linkedin.com/in/rahul-tiwari-981979109",
         "name": "Rahul Tiwari"
       },
-     
+     {
+        "image": "images/Jayprakash.jpg",
+        "email": "https://in.linkedin.com/in/jayprakash-yadav-45657095",
+        "name": "Jayprakash Yadav"
+      },
       {
         "image": "images/Prachi.jpg",
         "email": "https://in.linkedin.com/in/prachi-sugdare-046601115",
