@@ -12,6 +12,7 @@
     <!-- Basic Page Needs
     ================================================== -->
     <meta charset="utf-8">
+ 
     <title>BridgeLabz - Lab to nurture Engineering Talent and Ideas</title>
     <meta name="description" content="Lab to nurture Engineering Talent and Ideas">
     <meta name="author" content="Xtracut">
@@ -23,10 +24,10 @@
 
     <!-- CSS
     ================================================== -->
-    <!--<link rel="stylesheet" href="css/base.css">-->
-    <!--<link rel="stylesheet" href="css/skeleton.css">-->
-    <!--<link rel="stylesheet" href="css/layout.css">-->
-    <!--<link rel="stylesheet" href="css/fwslider.css" media="all">-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/fwslider.css" media="all">
     <!--<link rel="stylesheet" href="css/swipebox.css" media="all">-->
     <!--<link rel="stylesheet" href="css/linecons.css" media="all">-->
     <link rel="stylesheet" href="css/flexslider/main.css" media="all">
@@ -179,148 +180,153 @@
 
         });
     });
+
+
+
+
+    
     /*----------------------------------------------------*/
     /*  Contact Form
      /*----------------------------------------------------*/
 
     /* jQuery Start */
-    jQuery(document).ready(function () {
+    // jQuery(document).ready(function () {
 
-        (function () {
-            var animateSpeed = 300;
-            var emailReg = /^[a-zA-Z0-9._-]+@([a-zA-Z0-9.-]+\.)+[a-zA-Z0-9.-]{2,4}$/;
+    //     (function () {
+    //         var animateSpeed = 300;
+    //         var emailReg = /^[a-zA-Z0-9._-]+@([a-zA-Z0-9.-]+\.)+[a-zA-Z0-9.-]{2,4}$/;
 
-            // Validating
+    //         // Validating
 
-            function validateName(name) {
-                if (name.val() == '*') {
-                    name.addClass('validation-error', animateSpeed);
-                    return false;
-                }
-                else {
-                    name.removeClass('validation-error', animateSpeed);
-                    return true;
-                }
-            }
+    //         function validateName(name) {
+    //             if (name.val() == '*') {
+    //                 name.addClass('validation-error', animateSpeed);
+    //                 return false;
+    //             }
+    //             else {
+    //                 name.removeClass('validation-error', animateSpeed);
+    //                 return true;
+    //             }
+    //         }
 
-            function validateEmail(email, regex) {
-                if (!regex.test(email.val())) {
-                    email.addClass('validation-error', animateSpeed);
-                    return false;
-                }
-                else {
-                    email.removeClass('validation-error', animateSpeed);
-                    return true;
-                }
-            }
+    //         function validateEmail(email, regex) {
+    //             if (!regex.test(email.val())) {
+    //                 email.addClass('validation-error', animateSpeed);
+    //                 return false;
+    //             }
+    //             else {
+    //                 email.removeClass('validation-error', animateSpeed);
+    //                 return true;
+    //             }
+    //         }
 
-            function validateSubject(asubject) {
-                if (asubject.val() == '*') {
-                    asubject.addClass('validation-error', animateSpeed);
-                    return false;
-                }
-                else {
-                    asubject.removeClass('validation-error', animateSpeed);
-                    return true;
-                }
-            }
+    //         function validateSubject(asubject) {
+    //             if (asubject.val() == '*') {
+    //                 asubject.addClass('validation-error', animateSpeed);
+    //                 return false;
+    //             }
+    //             else {
+    //                 asubject.removeClass('validation-error', animateSpeed);
+    //                 return true;
+    //             }
+    //         }
 
-            function validateMessage(message) {
-                if (message.val() == '') {
-                    message.addClass('validation-error', animateSpeed);
-                    return false;
-                }
-                else {
-                    message.removeClass('validation-error', animateSpeed);
-                    return true;
-                }
-            }
+    //         function validateMessage(message) {
+    //             if (message.val() == '') {
+    //                 message.addClass('validation-error', animateSpeed);
+    //                 return false;
+    //             }
+    //             else {
+    //                 message.removeClass('validation-error', animateSpeed);
+    //                 return true;
+    //             }
+    //         }
 
-            $('#send').click(function () {
+    //         $('#send').click(function () {
 
-                var result = true;
+    //             var result = true;
 
-                var name = $('input[name=name]');
-                var email = $('input[name=email]');
-                var asubject = $('input[name=asubject]');
-                var message = $('textarea[name=message]');
-                var budget = $('input[name="budget"]');
+    //             var name = $('input[name=name]');
+    //             var email = $('input[name=email]');
+    //             var asubject = $('input[name=asubject]');
+    //             var message = $('textarea[name=message]');
+    //             var budget = $('input[name="budget"]');
 
-                // Validate
-                if (!validateName(name)) result = false;
-                if (!validateSubject(asubject)) result = false;
-                if (!validateEmail(email, emailReg)) result = false;
-                if (!validateMessage(message)) result = false;
+    //             // Validate
+    //             if (!validateName(name)) result = false;
+    //             if (!validateSubject(asubject)) result = false;
+    //             if (!validateEmail(email, emailReg)) result = false;
+    //             if (!validateMessage(message)) result = false;
 
-                if (result == false) return false;
+    //             if (result == false) return false;
 
-                // Data
-                var data = 'name=' + name.val() + '&email=' + email.val() + '&asubject=' + asubject.val() + '&message=' + encodeURIComponent(message.val()) + "&budget=" + budget.val();
+    //             // Data
+    //             var data = 'name=' + name.val() + '&email=' + email.val() + '&asubject=' + asubject.val() + '&message=' + encodeURIComponent(message.val()) + "&budget=" + budget.val();
 
-                // Disable fields
-                $('.text').attr('disabled', 'true');
+    //             // Disable fields
+    //             $('.text').attr('disabled', 'true');
 
-                // Loading icon
-                $('.loading').show();
+    //             // Loading icon
+    //             $('.loading').show();
 
-                // Start jQuery
-                $.ajax({
+    //             // Start jQuery
+    //             $.ajax({
 
-                    // PHP file that processes the data and send mail
-                    url: "contact.php",
+    //                 // PHP file that processes the data and send mail
+    //                 url: "contact.php",
 
-                    // GET method is used
-                    type: "GET",
+    //                 // GET method is used
+    //                 type: "GET",
 
-                    // Pass the data
-                    data: data,
+    //                 // Pass the data
+    //                 data: data,
 
-                    //Do not cache the page
-                    cache: false,
+    //                 //Do not cache the page
+    //                 cache: false,
 
-                    // Success
-                    success: function (html) {
+    //                 // Success
+    //                 success: function (html) {
 
-                        if (html == 1) {
+    //                     if (html == 1) {
 
-                            // Loading icon
-                            $('.loading').fadeOut('slow');
+    //                         // Loading icon
+    //                         $('.loading').fadeOut('slow');
 
-                            //show the success message
-                            $('.success-message').slideDown('slow');
+    //                         //show the success message
+    //                         $('.success-message').slideDown('slow');
 
-                            // Disable send button
-                            $('.send').attr('disabled', true);
+    //                         // Disable send button
+    //                         $('.send').attr('disabled', true);
 
-                        }
+    //                     }
 
-                        else {
-                            $('.loading').fadeOut('slow')
-                            alert('Sorry, unexpected error. Please try again later.');
-                        }
-                    }
-                });
+    //                     else {
+    //                         $('.loading').fadeOut('slow')
+    //                         alert('Sorry, unexpected error. Please try again later.');
+    //                     }
+    //                 }
+    //             });
 
-                return false;
+    //             return false;
 
-            });
+    //         });
 
-            $('input[name=name]').blur(function () {
-                validateName($(this));
-            });
-            $('input[name=email]').blur(function () {
-                validateEmail($(this), emailReg);
-            });
-            $('input[name=asubject]').blur(function () {
-                validateSubject($(this));
-            });
-            $('textarea[name=message]').blur(function () {
-                validateMessage($(this));
-            });
+    //         $('input[name=name]').blur(function () {
+    //             validateName($(this));
+    //         });
+    //         $('input[name=email]').blur(function () {
+    //             validateEmail($(this), emailReg);
+    //         });
+    //         $('input[name=asubject]').blur(function () {
+    //             validateSubject($(this));
+    //         });
+    //         $('textarea[name=message]').blur(function () {
+    //             validateMessage($(this));
+    //         });
 
-        })();
+    //     })();
 
-    });
+    // });
     /* jQuery End */
 </script>
 <!--main script file
@@ -330,6 +336,8 @@
 <!-- Controller
 ================================================== -->
 <script src="controller/controller.js"></script>
+<script src="controller/contact.js"></script>
+
 
 <!-- Directives
 ================================================== -->
