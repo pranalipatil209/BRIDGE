@@ -11,7 +11,7 @@ $scope.codeStatus = "";
         }
        
         // Accessing the Angular $http Service to send data via REST Communication to Node Server.
-     $http.post('http://localhost:8073/setData',formData).success(function (response) {
+     $http.post('http://bridge941.herokuapp.com/setData',formData).success(function (response) {
                 console.log("success"); // Getting Success Response in Callback
                 $scope.codeStatus = response.data;
                 console.log(response);
