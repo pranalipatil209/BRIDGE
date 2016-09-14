@@ -13,10 +13,11 @@ angular.module('bridgeApp').controller('contactCtrl', function ($scope, $http, $
                 // Accessing the Angular $http Service to send data via REST Communication to Node Server.
                 $http.post('https://bridge941.herokuapp.com/setData', formData).success(function (response) {
                     console.log("success"); // Getting Success Response in Callback
-                    var r=toString(response)
+                    var r=toString(JSON.stringify(response));
+                    
                     alert(r);
                     $scope.codeStatus = response.data;
-                        console.log(response)
+                     
                 }).error(function (response) {
                     console.log("error"); // Getting Error Response in Callback
                     $scope.codeStatus = response || "Request failed";
