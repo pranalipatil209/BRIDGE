@@ -7,7 +7,7 @@ angular.module('bridgeApp')
 
     return {
 
-      templateUrl: 'pages/fellow1.html'
+      templateUrl: 'pages/fellow_bridgelabz.html'
 
     };
 
