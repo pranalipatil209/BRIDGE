@@ -5,9 +5,8 @@
 var bridgeApp = angular.module('bridgeApp', ['ui.router']);
 
 /** configure existing services */
-bridgeApp.config(function ($stateProvider, $urlRouterProvider,$httpProvider) {
-        $httpProvider.defaults.useXDomain = true;
-        delete $httpProvider.defaults.headers.common['X-Requested-With'];
+bridgeApp.config(function ($stateProvider, $urlRouterProvider) {
+        
 	/**
          * @default Home
          */
